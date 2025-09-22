@@ -11,15 +11,15 @@ class AdminUser extends User{
 
     public void showMessage(){
     System.out.println("Welcome, Admin!");
-}
-}
+    }
+  }
 
 class GuestUser extends User{
 
     public void showMessage(){
     System.out.println("Welcome, User!");
-}
-}
+    }
+  }
 
 
  class UserTest{
@@ -30,7 +30,5 @@ class GuestUser extends User{
         GuestUser g = new GuestUser();
         g.showMessage();
         g.displayUserType();
-    }
-
-
+    } 
  }
