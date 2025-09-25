@@ -19,8 +19,9 @@ public class Main {
 
       FileWriter output = new FileWriter(file);
             output.write(content);
-            System.out.println("Data is written to the file.");
             output.close();
+            System.out.println("Data is written to the file.");
+            
        
       FileReader input = new FileReader(file);
              int i;
@@ -28,12 +29,13 @@ public class Main {
              while ((i = input.read()) != -1) {
                 System.out.print((char) i);
             }
-            System.out.println();
-            input.close();
+             input.close();
+             System.out.println();
 
     if (file.delete()) {
                 System.out.println("File deleted successfully: " + file.getName());
-            } else {
+            } 
+              else {
                 System.out.println("Failed to delete the file.");
             }
         }
