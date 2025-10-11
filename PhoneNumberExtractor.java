@@ -16,7 +16,7 @@ public class PhoneNumberExtractor {
         
         while (matcher.find()) {
             System.out.println(matcher.group());
-            found = true;
+            found = true; 
         }
 
       if (!found) {
