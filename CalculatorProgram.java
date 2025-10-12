@@ -19,7 +19,7 @@ class Calculator {
             System.out.println("Division by zero is not allowed!");
             return 0;
         } 
-          return a/b;
+          return (double)a/b;
     }
 }
 
