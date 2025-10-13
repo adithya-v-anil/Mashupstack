@@ -66,7 +66,7 @@ public class CalculatorProgram {
                     default:
                        System.out.println("Invalid Operation!");
                 }
-
+                
         sc.close();
     }
 }
